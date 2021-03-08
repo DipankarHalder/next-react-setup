@@ -1,0 +1,26 @@
+{
+  "editor.tabSize": 2,
+  "editor.wordWrap": "off",
+  "editor.fontSize": 16,
+  "editor.lineHeight": 20,
+  "editor.fontLigatures": true,
+  "editor.minimap.enabled": false,
+  "editor.fontFamily": "Dank Mono, Operator Mono, Fira Code",
+  "editor.formatOnSave": true,
+  "eslint.alwaysShowStatus": true,
+  "editor.cursorBlinking": "smooth",
+  "editor.cursorSmoothCaretAnimation": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true,
+    "source.fixAll.tslint": true,
+    "source.organizeImports": true
+  },
+  "[javascript]": {
+    "editor.formatOnSave": false
+  },
+  "[javascriptreact]": {
+    "editor.formatOnSave": false
+  },
+  "prettier.disableLanguages": ["javascript", "javascriptreact"]
+}
