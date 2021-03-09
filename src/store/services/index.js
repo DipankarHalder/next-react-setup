@@ -1,0 +1,1 @@
+export const getPost = 'https://jsonplaceholder.typicode.com/posts';
